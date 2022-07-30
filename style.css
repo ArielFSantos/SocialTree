@@ -5,6 +5,7 @@
     --fonte:white;
   }
   *{
+    text-shadow: 2px 2px 2px black;
     color: var(--purple);
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
