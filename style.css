@@ -2,7 +2,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 :root {
     --body-bg-color: #FAF7FD;
-    --purple: #BB99DD;
+    --fonte:white;
   }
   *{
     color: var(--purple);
@@ -13,21 +13,26 @@
   }
   #foto{
     padding: 5px;
-    border: solid #BB99DD;
+    border: solid var(--fonte);
     border-radius: 300px;
     width: 300px;
     height: 300px;
   }
   body{
-    color: var(--purple);
-    background-color:var(--body-bg-color);
+
+    margin: auto;
+    color: var(--fonte);
+    background-image: url(img/galaxy.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
     
   }
   main{
     padding-top: 10px;
     margin: auto;
     text-align: center;
-    width: 1000px;
+    max-width: 1000px;
     }
     main p{
         font-weight: bolder;
@@ -44,9 +49,9 @@
 
     #links div{
 
-        border: solid var(--purple);
+        border: solid var(--fonte);
         border-radius: 10px;
-        padding: 20px 50px;
+        padding: 20px 40px;
         width: 400px;
         margin: 10px;
         
@@ -54,7 +59,7 @@
         font-size: 30px;
      }
     #links div:hover{
-    background-color: #bb99dd3f;
+    background-color: #76089183;
 }
         
   #icones{
@@ -64,9 +69,10 @@
     }
      #icones div{
         border-radius: 300px;
-        padding: 20px;
+        padding: 15px;
     }
         #icones div:hover{
-            background-color: #bb99dd3f;
+            background-color: #76089183;
+           
             
         }
